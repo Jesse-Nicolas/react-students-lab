@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.student-card {
+  background-color: cadetblue;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+
+.score-card {
+  background-color: bisque;
+  margin: 10px;
+  border-radius: 35px;
+}
+
+.scores-container {
+  margin: 10px;
+}
